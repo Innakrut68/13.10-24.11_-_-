@@ -8,13 +8,13 @@
 Console.WriteLine("Введите целое число");
 int number = Convert.ToInt32(Console.ReadLine());
 
-if (number / 2 = 0);
+if ((number % 2) == 0)
 {
-   Console.WriteLine($"число{number} = четное");
+   Console.WriteLine($"число{number} четное");
 }
-if (number / 2 = -1);
+if ((number % 2) == 1)
 {
-   Console.WriteLine($"число{number} = нечетное");
+   Console.WriteLine($"число{number} нечетное");
 }
 
 
